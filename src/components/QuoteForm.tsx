@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { useState } from 'react'
 
 interface QuoteFormProps {
@@ -101,6 +101,8 @@ export default function QuoteForm({ variant = 'sidebar', title }: QuoteFormProps
             ) : 'Get My Free Quote →'}
           </button>
           <p className="text-xs text-gray-400 text-center">No spam. No obligation. Florida specialists only.</p>
+          <p className="text-xs text-gray-400 text-center mt-1">By submitting, I provide my signature and expressly consent to be contacted by licensed insurance agents via phone, SMS, or email at the number/address provided, even if on a Do Not Call list. Consent is not required to purchase.</p>
+          <p className="text-xs text-gray-400 text-center mt-1">Surplus lines insurers' policy rates and forms are not approved by any Florida regulatory agency. By clicking, you acknowledge you are seeking quotes from the total available market.</p>
         </form>
       )}
     </div>

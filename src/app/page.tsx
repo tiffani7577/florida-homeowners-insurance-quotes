@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import QuoteForm from '@/components/QuoteForm'
@@ -178,18 +177,18 @@ export default function HomePage() {
                   Dropped by your carrier? Premium doubled? Roof too old? We cover every Florida home insurance situation with real, local answers — not generic national advice.
                 </p>
                 <div className="mt-7 flex flex-col sm:flex-row gap-3">
-                  <Link
+                  <a
                     href="/get-a-quote"
                     className="inline-flex items-center justify-center bg-coral-500 hover:bg-coral-600 text-white font-bold py-3.5 px-7 rounded-xl text-base transition-colors shadow-lg"
                   >
                     Get a Free Quote →
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="/best-home-insurance-companies-florida-2026"
                     className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white hover:bg-white/10 font-semibold py-3.5 px-7 rounded-xl text-base transition-colors"
                   >
                     Compare Companies
-                  </Link>
+                  </a>
                 </div>
                 {/* Trust signals */}
                 <div className="mt-8 flex flex-wrap gap-4">
@@ -240,7 +239,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {guides.map((guide) => (
-              <Link
+              <a
                 key={guide.href}
                 href={guide.href}
                 className="group bg-white border border-gray-100 rounded-2xl p-5 hover:border-teal-200 hover:shadow-md transition-all duration-200"
@@ -268,7 +267,7 @@ export default function HomePage() {
                     <polyline points="9 18 15 12 9 6"/>
                   </svg>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
         </section>
@@ -283,18 +282,18 @@ export default function HomePage() {
               Speak with a licensed Florida specialist today. No pressure, no obligation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
+              <a
                 href="/get-a-quote"
                 className="bg-coral-500 hover:bg-coral-600 text-white font-bold py-3.5 px-8 rounded-xl text-base transition-colors shadow-lg"
               >
                 Get a Free Quote →
-              </Link>
-              <Link
+              </a>
+              <a
                 href="/best-home-insurance-companies-florida-2026"
                 className="border-2 border-white/40 text-white hover:bg-white/10 font-semibold py-3.5 px-8 rounded-xl text-base transition-colors"
               >
                 Compare Companies
-              </Link>
+              </a>
             </div>
           </div>
         </section>

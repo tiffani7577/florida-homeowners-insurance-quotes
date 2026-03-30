@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 import QuoteForm from '@/components/QuoteForm'
 
 export const metadata: Metadata = {
@@ -13,9 +12,9 @@ export default function GetAQuotePage() {
     <div className="min-h-screen bg-slate-50 flex flex-col">
       {/* Header */}
       <header className="bg-white border-b border-slate-200 px-6 py-4">
-        <Link href="/" className="text-teal-700 font-bold text-xl tracking-tight">
+        <a href="/" className="text-teal-700 font-bold text-xl tracking-tight">
           Sunshine State Insured
-        </Link>
+        </a>
       </header>
 
       <main className="flex-1 py-16 px-6">

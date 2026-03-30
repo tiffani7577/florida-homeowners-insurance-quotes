@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Thank You — Sunshine State Insured',
@@ -12,9 +11,9 @@ export default function ThankYouPage() {
     <div className="min-h-screen bg-slate-50 flex flex-col">
       {/* Header */}
       <header className="bg-white border-b border-slate-200 px-6 py-4">
-        <Link href="/" className="text-teal-700 font-bold text-xl tracking-tight">
+        <a href="/" className="text-teal-700 font-bold text-xl tracking-tight">
           Sunshine State Insured
-        </Link>
+        </a>
       </header>
 
       {/* Main */}
@@ -49,7 +48,7 @@ export default function ThankYouPage() {
                 { href: '/best-home-insurance-companies-florida-2026', label: 'Best home insurance companies in Florida 2026' },
               ].map((link) => (
                 <li key={link.href}>
-                  <Link
+                  <a
                     href={link.href}
                     className="flex items-center gap-2 text-teal-700 hover:text-teal-900 text-sm font-medium transition-colors"
                   >
@@ -57,13 +56,13 @@ export default function ThankYouPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                     </svg>
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
           </div>
 
-          <Link
+          <a
             href="/"
             className="inline-flex items-center gap-2 text-slate-500 hover:text-slate-700 text-sm transition-colors"
           >
@@ -71,7 +70,7 @@ export default function ThankYouPage() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
             Back to home
-          </Link>
+          </a>
         </div>
       </main>
     </div>

@@ -1,7 +1,6 @@
 import Header from './Header'
 import Footer from './Footer'
 import QuoteForm from './QuoteForm'
-import Link from 'next/link'
 
 interface FAQ {
   question: string
@@ -70,7 +69,7 @@ export default function ArticleLayout({
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             {/* Breadcrumb */}
             <nav className="text-teal-300 text-xs mb-4 flex items-center gap-1.5">
-              <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              <a href="/" className="hover:text-white transition-colors">Home</a>
               <span>›</span>
               <span className="text-teal-200">{breadcrumb}</span>
             </nav>
@@ -83,12 +82,12 @@ export default function ArticleLayout({
             {/* Mobile CTA above fold */}
             <div className="mt-6 flex flex-col sm:flex-row gap-3 md:hidden">
 
-              <Link
+              <a
                 href="/get-a-quote"
                 className="flex items-center justify-center bg-coral-500 text-white font-bold py-3 px-6 rounded-lg text-sm"
               >
                 Get Free Quote
-              </Link>
+              </a>
             </div>
           </div>
         </div>
@@ -127,7 +126,7 @@ export default function ArticleLayout({
                 <h3 className="font-serif text-lg text-teal-800 mb-4">Related Florida Insurance Guides</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {relatedPages.map(page => (
-                    <Link
+                    <a
                       key={page.href}
                       href={page.href}
                       className="flex items-center gap-2 text-teal-700 hover:text-teal-900 text-sm font-medium py-1.5 hover:underline"
@@ -136,7 +135,7 @@ export default function ArticleLayout({
                         <polyline points="9 18 15 12 9 6"/>
                       </svg>
                       {page.label}
-                    </Link>
+                    </a>
                   ))}
                 </div>
               </div>
@@ -148,12 +147,12 @@ export default function ArticleLayout({
               <div className="mt-6 bg-teal-800 text-white rounded-2xl p-5">
                 <p className="font-serif text-lg mb-2">Ready to get covered?</p>
                 <p className="text-teal-200 text-sm mb-4">Get matched with a licensed Florida insurance specialist — no obligation.</p>
-                <Link
+                <a
                   href="/get-a-quote"
                   className="flex items-center justify-center gap-2 bg-coral-500 hover:bg-coral-600 text-white font-bold py-3 rounded-lg text-sm w-full transition-colors"
                 >
                   Get a Free Quote
-                </Link>
+                </a>
               </div>
             </div>
           </div>

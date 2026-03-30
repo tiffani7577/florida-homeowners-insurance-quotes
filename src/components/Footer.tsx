@@ -1,4 +1,3 @@
-import Link from 'next/link'
 
 const guides = [
   { href: '/why-is-florida-home-insurance-so-expensive', label: 'Why Is Insurance So Expensive?' },
@@ -49,9 +48,9 @@ export default function Footer() {
             <ul className="space-y-2">
               {guides.map(link => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-teal-200 hover:text-white text-sm transition-colors">
+                  <a href={link.href} className="text-teal-200 hover:text-white text-sm transition-colors">
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -63,9 +62,9 @@ export default function Footer() {
             <ul className="space-y-2">
               {coverage.map(link => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-teal-200 hover:text-white text-sm transition-colors">
+                  <a href={link.href} className="text-teal-200 hover:text-white text-sm transition-colors">
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -75,18 +74,18 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">Get Help Now</h4>
             <p className="text-teal-200 text-sm mb-4">Connect with a licensed Florida insurance specialist today.</p>
-            <Link
+            <a
               href="/get-a-quote"
               className="block text-center bg-coral-500 hover:bg-coral-600 text-white font-bold py-3 px-6 rounded-lg text-sm transition-colors mb-3"
             >
               Get a Free Quote
-            </Link>
-            <Link
+            </a>
+            <a
               href="/best-home-insurance-companies-florida-2026"
               className="block text-center border border-teal-500 text-teal-200 hover:text-white hover:border-white py-2.5 px-6 rounded-lg text-sm transition-colors"
             >
               Compare Companies
-            </Link>
+            </a>
           </div>
         </div>
 
