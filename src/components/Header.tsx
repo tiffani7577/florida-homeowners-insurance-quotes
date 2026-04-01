@@ -18,7 +18,7 @@ export default function Header() {
           <Link href="/fr-44-insurance-florida" className="hover:text-blue-800">FR-44</Link>
         </nav>
         <div className="flex items-center gap-3">
-          <CallButton variant="header" label="(435) 612-1009" />
+          <CallButton variant="inline" label="(435) 612-1009" />
           <button onClick={() => setOpen(!open)} className="md:hidden p-2 text-gray-500">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
           </button>
