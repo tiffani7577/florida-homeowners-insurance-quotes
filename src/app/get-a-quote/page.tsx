@@ -5,7 +5,7 @@ import CallButton from '@/components/CallButton'
 
 export const metadata: Metadata = {
   title: 'Get a Free Florida Windstorm Insurance Quote',
-  description: 'Get a free Florida windstorm or FR-44/SR-22 insurance quote from licensed agents. Compare rates from multiple carriers. No obligation.',
+  description: 'Get free Florida homeowners insurance information. Call to speak with an insurance professional. No obligation.',
 }
 
 export default function GetAQuotePage() {
@@ -16,7 +16,7 @@ export default function GetAQuotePage() {
         <section className="bg-blue-900 text-white py-12 px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h1 className="font-serif text-4xl font-bold mb-4">Get Your Free Florida Quote</h1>
-            <p className="text-blue-100 text-lg">Licensed Florida agents compare rates from multiple carriers. No obligation, no spam.</p>
+            <p className="text-blue-100 text-lg">Free Florida homeowners insurance information. Call to speak with an insurance professional. No obligation.</p>
           </div>
         </section>
         <section className="py-12 px-4">

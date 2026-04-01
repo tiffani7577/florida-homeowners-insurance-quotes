@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="grid sm:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="font-serif text-white font-bold text-lg mb-3">FL Home Insurance Quotes</div>
-            <p className="text-blue-300 text-xs leading-relaxed">Helping Florida homeowners compare rates and find coverage since 2024. Licensed agents available Mon–Fri 9am–9pm, Sat 12pm–5pm EST.</p>
+            <p className="text-blue-300 text-xs leading-relaxed">Helping Florida homeowners find information on rates and coverage. Free information available Mon–Fri 9am–9pm, Sat 12pm–5pm EST.</p>
           </div>
           <div>
             <div className="font-semibold text-white text-sm mb-3">Coverage Types</div>

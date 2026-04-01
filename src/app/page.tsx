@@ -38,7 +38,7 @@ export default function HomePage() {
               <span className="text-orange-400">Compare Real Rates in 2 Minutes</span>
             </h1>
             <p className="text-blue-100 text-lg mb-8 max-w-2xl">
-              16 new carriers entered Florida in 2026. If you haven&apos;t compared rates since 2024, you&apos;re likely overpaying. Our licensed agents compare multiple carriers and find your best rate — no obligation.
+              16 new carriers entered Florida in 2026. If you haven&apos;t compared rates since 2024, you&apos;re likely overpaying. Call to speak with an insurance professional who can compare multiple carriers — no obligation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <CallButton variant="hero" label="Call Now — Free Quote in 2 Min" />
@@ -46,14 +46,14 @@ export default function HomePage() {
                 See 2026 Rate Guide →
               </Link>
             </div>
-            <p className="text-blue-300 text-xs mt-4">Mon–Fri 9am–9pm · Sat 12pm–5pm EST · Licensed Florida Agents</p>
+            <p className="text-blue-300 text-xs mt-4">Mon–Fri 9am–9pm · Sat 12pm–5pm EST · Free Information</p>
           </div>
         </section>
 
         {/* TRUST BAR */}
         <section className="bg-white border-b border-gray-100 py-4 px-4">
           <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-gray-500 font-medium">
-            {['Licensed Florida Agents', '16 Carriers Compared', 'No Obligation Quote', 'FR-44 & SR-22 Specialists', 'Spanish-Speaking Agents Available'].map(t => (
+            {['Free Information', '16 Carriers Compared', 'No Obligation Quote', 'FR-44 & SR-22 Info', 'Spanish-Speaking Available'].map(t => (
               <div key={t} className="flex items-center gap-1.5">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#16a34a" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
                 {t}
