@@ -5,7 +5,7 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Medicare Advantage Changes Florida 2026 | Is Your Plan Discontinued?',
+  title: 'Medicare Advantage Florida 2026 | Is Your Plan Discontinued?',
   description: 'Florida Medicare plans are changing in 2026. Many Advantage plans discontinued or reduced benefits. Find new 5-star coverage in your zip code. Call for a free plan review.',
 }
 
