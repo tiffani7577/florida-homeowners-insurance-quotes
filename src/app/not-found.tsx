@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Page Not Found — Sunshine State Insured',
+  title: 'Page Not Found — Florida Homeowners Insurance Quotes',
 }
 
 export default function NotFound() {

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Thank You — Sunshine State Insured',
+  title: 'Thank You — Florida Homeowners Insurance Quotes',
   description: 'Your request has been received. A licensed Florida insurance specialist will contact you shortly.',
   robots: { index: false, follow: false },
 }
@@ -12,7 +12,7 @@ export default function ThankYouPage() {
       {/* Header */}
       <header className="bg-white border-b border-slate-200 px-6 py-4">
         <a href="/" className="text-teal-700 font-bold text-xl tracking-tight">
-          Sunshine State Insured
+          Florida Homeowners Insurance Quotes
         </a>
       </header>
 
