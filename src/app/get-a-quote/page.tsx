@@ -4,8 +4,20 @@ import Footer from '@/components/Footer'
 import CallButton from '@/components/CallButton'
 
 export const metadata: Metadata = {
-  title: 'Get a Free Florida Windstorm Insurance Quote',
+  title: 'Get a Free Florida Home Insurance Quote',
   description: 'Get free Florida homeowners insurance information. Call to speak with an insurance professional. No obligation.',
+  alternates: { canonical: 'https://www.floridahomeownersinsurancequotes.com/get-a-quote' },
+  openGraph: {
+    url: 'https://www.floridahomeownersinsurancequotes.com/get-a-quote',
+    title: 'Get a Free Florida Home Insurance Quote',
+    description: 'Get free Florida homeowners insurance information. Call to speak with an insurance professional. No obligation.',
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Get a Free Florida Home Insurance Quote',
+    description: 'Get free Florida homeowners insurance information. Call to speak with an insurance professional. No obligation.',
+  },
 }
 
 export default function GetAQuotePage() {

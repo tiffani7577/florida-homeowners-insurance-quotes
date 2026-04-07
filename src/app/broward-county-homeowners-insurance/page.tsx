@@ -5,8 +5,20 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Broward County Homeowners Insurance Quotes | 2026 Rates',
-  description: 'Compare homeowners insurance quotes in Broward County, FL. Fort Lauderdale, Hollywood, Pompano Beach, Coral Springs. 2026 rate decreases, wind mitigation credits, Citizens alternatives.',
+  title: 'Broward County Homeowners Insurance | 2026',
+  description: 'Compare homeowners insurance quotes in Broward County, FL. Fort Lauderdale, Hollywood, Pompano Beach, Coral Springs. 2026 rate decreases, wind mitigatio...',
+  alternates: { canonical: 'https://www.floridahomeownersinsurancequotes.com/broward-county-homeowners-insurance' },
+  openGraph: {
+    url: 'https://www.floridahomeownersinsurancequotes.com/broward-county-homeowners-insurance',
+    title: 'Broward County Homeowners Insurance | 2026',
+    description: 'Compare homeowners insurance quotes in Broward County, FL. Fort Lauderdale, Hollywood, Pompano Beach, Coral Springs. 2026 rate decreases, wind mitigation c',
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Broward County Homeowners Insurance | 2026',
+    description: 'Compare homeowners insurance quotes in Broward County, FL. Fort Lauderdale, Hollywood, Pompano Beach, Coral Springs. 2026 rate decreases, wind mitigation c',
+  },
 }
 
 export default function Page() {

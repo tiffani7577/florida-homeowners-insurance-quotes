@@ -2,11 +2,17 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'St. Lucie County Homeowners Insurance | Compare Rates 2026',
-  description: 'Find the best homeowners insurance rates in St. Lucie County, FL. Compare carriers, understand your coverage options, and save on your home insurance premium.',
+  title: 'St. Lucie County Homeowners Insurance 2026',
+  description: 'Find the best homeowners insurance rates in St. Lucie County, FL. Compare carriers, understand your coverage options, and save on your home insurance pr...',
   keywords: ['St Lucie County homeowners insurance', 'home insurance Port St Lucie', 'homeowners insurance Fort Pierce Florida', 'St Lucie County home insurance rates', 'cheap home insurance St Lucie County'],
   openGraph: {
-    title: 'St. Lucie County Homeowners Insurance | Compare Rates 2026',
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }
+  twitter: {
+    card: 'summary_large_image',
+    title: 'St. Lucie County Homeowners Insurance 2026',
+    description: 'Find the best homeowners insurance rates in St. Lucie County, FL.',
+  },],
+    title: 'St. Lucie County Homeowners Insurance 2026',
     description: 'Find the best homeowners insurance rates in St. Lucie County, FL.',
     url: 'https://www.floridahomeownersinsurancequotes.com/st-lucie-county-homeowners-insurance',
   },

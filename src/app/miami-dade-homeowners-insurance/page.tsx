@@ -5,8 +5,20 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Miami-Dade Homeowners Insurance Quotes | HVHZ Coverage 2026',
-  description: 'Compare Miami-Dade homeowners insurance. HVHZ-compliant coverage, Citizens alternatives, wind mitigation credits. Miami, Hialeah, Coral Gables, Homestead. Call for 2026 rates.',
+  title: 'Miami-Dade Homeowners Insurance | HVHZ 2026',
+  description: 'Compare Miami-Dade homeowners insurance. HVHZ-compliant coverage, Citizens alternatives, wind mitigation credits. Miami, Hialeah, Coral Gables, Homestea...',
+  alternates: { canonical: 'https://www.floridahomeownersinsurancequotes.com/miami-dade-homeowners-insurance' },
+  openGraph: {
+    url: 'https://www.floridahomeownersinsurancequotes.com/miami-dade-homeowners-insurance',
+    title: 'Miami-Dade Homeowners Insurance | HVHZ 2026',
+    description: 'Compare Miami-Dade homeowners insurance. HVHZ-compliant coverage, Citizens alternatives, wind mitigation credits. Miami, Hialeah, Coral Gables, Homestead. ',
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Miami-Dade Homeowners Insurance | HVHZ 2026',
+    description: 'Compare Miami-Dade homeowners insurance. HVHZ-compliant coverage, Citizens alternatives, wind mitigation credits. Miami, Hialeah, Coral Gables, Homestead. ',
+  },
 }
 
 export default function Page() {

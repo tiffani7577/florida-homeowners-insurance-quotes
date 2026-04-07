@@ -5,8 +5,20 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Seguro de Casa Florida | Cotizaciones 2026 en Español',
-  description: 'Compare cotizaciones de seguro para propietarios en Florida. Agentes que hablan español disponibles. Miami-Dade, Broward, Palm Beach. Llame ahora para una cotización gratis.',
+  title: 'Seguro de Casa Florida | Cotizaciones 2026',
+  description: 'Compare cotizaciones de seguro para propietarios en Florida. Agentes que hablan español disponibles. Miami-Dade, Broward, Palm Beach. Llame ahora para u...',
+  alternates: { canonical: 'https://www.floridahomeownersinsurancequotes.com/seguro-de-casa-florida' },
+  openGraph: {
+    url: 'https://www.floridahomeownersinsurancequotes.com/seguro-de-casa-florida',
+    title: 'Seguro de Casa Florida | Cotizaciones 2026',
+    description: 'Compare cotizaciones de seguro para propietarios en Florida. Agentes que hablan español disponibles. Miami-Dade, Broward, Palm Beach. Llame ahora para una ',
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Seguro de Casa Florida | Cotizaciones 2026',
+    description: 'Compare cotizaciones de seguro para propietarios en Florida. Agentes que hablan español disponibles. Miami-Dade, Broward, Palm Beach. Llame ahora para una ',
+  },
 }
 
 export default function Page() {

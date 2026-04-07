@@ -5,8 +5,20 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Medicare Advantage Florida 2026 | Is Your Plan Discontinued?',
-  description: 'Florida Medicare plans are changing in 2026. Many Advantage plans discontinued or reduced benefits. Find new 5-star coverage in your zip code. Call for a free plan review.',
+  title: 'Medicare Advantage Florida 2026 | Plan Changes',
+  description: 'Florida Medicare plans are changing in 2026. Many Advantage plans discontinued or reduced benefits. Find new 5-star coverage in your zip code. Call for ...',
+  alternates: { canonical: 'https://www.floridahomeownersinsurancequotes.com/medicare-advantage-florida-2026' },
+  openGraph: {
+    url: 'https://www.floridahomeownersinsurancequotes.com/medicare-advantage-florida-2026',
+    title: 'Medicare Advantage Florida 2026 | Plan Changes',
+    description: 'Florida Medicare plans are changing in 2026. Many Advantage plans discontinued or reduced benefits. Find new 5-star coverage in your zip code. Call for a f',
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Medicare Advantage Florida 2026 | Plan Changes',
+    description: 'Florida Medicare plans are changing in 2026. Many Advantage plans discontinued or reduced benefits. Find new 5-star coverage in your zip code. Call for a f',
+  },
 }
 
 export default function Page() {

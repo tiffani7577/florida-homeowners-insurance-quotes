@@ -6,8 +6,20 @@ import ExitIntent from '@/components/ExitIntent'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Florida Homeowners Insurance Quotes | Compare 2026 Rates',
-  description: 'Compare Florida homeowners insurance quotes from top carriers. 2026 rate decreases, Citizens alternatives, county-specific coverage, and instant FR-44/SR-22 filings.',
+  title: 'Florida Homeowners Insurance Quotes | 2026',
+  description: 'Compare Florida homeowners insurance quotes from top carriers. 2026 rate decreases, Citizens alternatives, county-specific coverage, and instant FR-44/S...',
+  alternates: { canonical: 'https://www.floridahomeownersinsurancequotes.com' },
+  openGraph: {
+    url: 'https://www.floridahomeownersinsurancequotes.com',
+    title: 'Florida Homeowners Insurance Quotes | 2026',
+    description: 'Compare Florida homeowners insurance quotes from top carriers. 2026 rate decreases, Citizens alternatives, county-specific coverage, and instant FR-44/SR-2',
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Florida Homeowners Insurance Quotes | 2026',
+    description: 'Compare Florida homeowners insurance quotes from top carriers. 2026 rate decreases, Citizens alternatives, county-specific coverage, and instant FR-44/SR-2',
+  },
 }
 
 const pages = [

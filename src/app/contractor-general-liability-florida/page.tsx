@@ -8,7 +8,19 @@ const faq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@
 
 export const metadata: Metadata = {
   title: 'Contractor General Liability Florida | Same-Day COI',
-  description: 'Florida contractors: get same-day General Liability insurance and Certificate of Insurance (COI). Roofers, HVAC, electricians, handymen. Call for instant coverage.',
+  description: 'Florida contractors: get same-day General Liability insurance and Certificate of Insurance (COI). Roofers, HVAC, electricians, handymen. Call for instan...',
+  alternates: { canonical: 'https://www.floridahomeownersinsurancequotes.com/contractor-general-liability-florida' },
+  openGraph: {
+    url: 'https://www.floridahomeownersinsurancequotes.com/contractor-general-liability-florida',
+    title: 'Contractor General Liability Florida | Same-Day COI',
+    description: 'Florida contractors: get same-day General Liability insurance and Certificate of Insurance (COI). Roofers, HVAC, electricians, handymen. Call for instant c',
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contractor General Liability Florida | Same-Day COI',
+    description: 'Florida contractors: get same-day General Liability insurance and Certificate of Insurance (COI). Roofers, HVAC, electricians, handymen. Call for instant c',
+  },
 }
 
 const trades = [

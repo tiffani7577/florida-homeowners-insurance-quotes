@@ -5,8 +5,20 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Palm Beach County Homeowners Insurance | 2026 Rates',
-  description: 'Compare Palm Beach County homeowners insurance. West Palm Beach, Boca Raton, Delray Beach, Boynton Beach. Citizens alternatives, wind mitigation credits, 2026 rate guide.',
+  title: 'Palm Beach Homeowners Insurance | 2026 Rates',
+  description: 'Compare Palm Beach County homeowners insurance. West Palm Beach, Boca Raton, Delray Beach, Boynton Beach. Citizens alternatives, wind mitigation credits...',
+  alternates: { canonical: 'https://www.floridahomeownersinsurancequotes.com/palm-beach-homeowners-insurance' },
+  openGraph: {
+    url: 'https://www.floridahomeownersinsurancequotes.com/palm-beach-homeowners-insurance',
+    title: 'Palm Beach Homeowners Insurance | 2026 Rates',
+    description: 'Compare Palm Beach County homeowners insurance. West Palm Beach, Boca Raton, Delray Beach, Boynton Beach. Citizens alternatives, wind mitigation credits, 2',
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Palm Beach Homeowners Insurance | 2026 Rates',
+    description: 'Compare Palm Beach County homeowners insurance. West Palm Beach, Boca Raton, Delray Beach, Boynton Beach. Citizens alternatives, wind mitigation credits, 2',
+  },
 }
 
 export default function Page() {

@@ -7,7 +7,7 @@ import ExitIntent from '@/components/ExitIntent'
 const faq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How fast can I get a Florida FR-44 filed?","acceptedAnswer":{"@type":"Answer","text":"Our agents provide instant electronic filing to the DHSMV. Most FR-44s are submitted within 15 minutes of your call. Call (435) 612-1009 now to start your reinstatement."}},{"@type":"Question","name":"What is the difference between FR-44 and SR-22 in Florida?","acceptedAnswer":{"@type":"Answer","text":"FR-44 is Florida-specific and required after DUI/DWI convictions. It requires higher liability limits (100/300/50) than SR-22. SR-22 is for other violations and requires standard limits."}},{"@type":"Question","name":"Do I need FR-44 if I don't own a car?","acceptedAnswer":{"@type":"Answer","text":"Yes. Florida requires a Non-Owner FR-44 policy to reinstate your license even if you don't own a vehicle. These are significantly cheaper than standard policies. Call (435) 612-1009 for a non-owner quote."}}]}
 
 export const metadata: Metadata = {
-  title: 'Instant Florida FR-44 Filings | Get Your License Back Today',
+  title: 'Florida FR-44 Insurance | Instant Filing 2026',
   description: "Need a Florida FR-44 fast? Instant electronic filing to DHSMV. Low down payments, 2026 rates, non-owner policies available. Call an agent now.",
 }
 

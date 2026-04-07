@@ -5,7 +5,7 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Florida Homeowners Insurance Rates 2026 | What Actually Changed',
+  title: 'Florida Home Insurance Rates 2026 | What Changed',
   description: 'Florida homeowners insurance rates dropped 8.7% in 2026 for Citizens policyholders. 16 new carriers entered. Find out if you\'re overpaying and how to get the new lower rates.',
 }
 
