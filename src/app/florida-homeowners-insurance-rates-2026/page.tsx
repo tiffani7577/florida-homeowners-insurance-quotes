@@ -5,8 +5,20 @@ import CallButton from '@/components/CallButton'
 import ExitIntent from '@/components/ExitIntent'
 
 export const metadata: Metadata = {
-  title: 'Florida Home Insurance Rates 2026 | What Changed',
-  description: 'Florida homeowners insurance rates dropped 8.7% in 2026 for Citizens policyholders. 16 new carriers entered. Find out if you\'re overpaying and how to get the new lower rates.',
+  title: 'Florida Home Insurance Rates 2026 | Guide',
+  description: 'Florida homeowners insurance rates in 2026: average costs by county, what drives premiums, and how to lower your bill.',
+  alternates: { canonical: 'https://www.floridahomeownersinsurancequotes.com/florida-homeowners-insurance-rates-2026' },
+  openGraph: {
+    url: 'https://www.floridahomeownersinsurancequotes.com/florida-homeowners-insurance-rates-2026',
+    title: 'Florida Home Insurance Rates 2026 | Guide',
+    description: 'Florida homeowners insurance rates in 2026: average costs by county, what drives premiums, and how to lower your bill.',
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Florida Home Insurance Rates 2026 | Guide',
+    description: 'Florida homeowners insurance rates in 2026: average costs by county, what drives premiums, and how to lower your bill.',
+  },
 }
 
 export default function Page() {

@@ -1,9 +1,20 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Thank You — Florida Homeowners Insurance Quotes',
-  description: 'Your request has been received. A licensed Florida insurance specialist will contact you shortly.',
-  robots: { index: false, follow: false },
+  title: 'Thank You | Florida Homeowners Insurance',
+  description: 'Your quote request has been received. A licensed Florida homeowners insurance specialist will contact you shortly.',
+  alternates: { canonical: 'https://www.floridahomeownersinsurancequotes.com/thank-you' },
+  openGraph: {
+    url: 'https://www.floridahomeownersinsurancequotes.com/thank-you',
+    title: 'Thank You | Florida Homeowners Insurance',
+    description: 'Your quote request has been received. A licensed Florida homeowners insurance specialist will contact you shortly.',
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Thank You | Florida Homeowners Insurance',
+    description: 'Your quote request has been received. A licensed Florida homeowners insurance specialist will contact you shortly.',
+  },
 }
 
 export default function ThankYouPage() {
