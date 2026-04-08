@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Find the best homeowners insurance rates in Orlando and Orange County, FL. Compare carriers, understand your coverage, and save on your home insurance p...',
   keywords: ['Orlando homeowners insurance', 'home insurance Orlando Florida', 'Orange County homeowners insurance', 'cheap home insurance Orlando', 'Orlando home insurance rates 2026'],
   openGraph: {
-    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
   twitter: {
     card: 'summary_large_image',
     title: 'Orlando Homeowners Insurance | 2026 Rates',

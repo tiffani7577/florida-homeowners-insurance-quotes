@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Find the best homeowners insurance rates in St. Lucie County, FL. Compare carriers, understand your coverage options, and save on your home insurance pr...',
   keywords: ['St Lucie County homeowners insurance', 'home insurance Port St Lucie', 'homeowners insurance Fort Pierce Florida', 'St Lucie County home insurance rates', 'cheap home insurance St Lucie County'],
   openGraph: {
-    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }
+    images: [{ url: 'https://www.floridahomeownersinsurancequotes.com/og-image.jpg' }],
   twitter: {
     card: 'summary_large_image',
     title: 'St. Lucie County Homeowners Insurance 2026',
