@@ -80,6 +80,9 @@ export default function ArticleLayout({
             {subtitle && (
               <p className="mt-4 text-teal-200 text-lg max-w-2xl">{subtitle}</p>
             )}
+            <p className="mt-3 text-teal-300 text-xs">
+              By the Florida Homeowners Insurance Quotes Team &middot; Licensed Florida Insurance Professionals &middot; Updated 2026
+            </p>
             {/* Mobile CTA above fold */}
             <div className="mt-6 flex flex-col sm:flex-row gap-3 md:hidden">
 
