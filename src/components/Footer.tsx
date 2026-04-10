@@ -30,7 +30,7 @@ export default function Footer() {
           <p className="text-blue-400 text-xs leading-relaxed">
             <strong className="text-blue-300">Disclaimer:</strong> Florida Homeowners Insurance Quotes is a lead generation search engine and marketing provider. We are not a licensed insurance agency, broker, or carrier. We do not sell, solicit, or negotiate insurance, nor do we provide specific insurance or legal advice. All calls and inquiries are routed to third-party licensed insurance professionals or agencies. Payouts and quotes are subject to eligibility and carrier guidelines in the State of Florida. By using this site or calling the numbers provided, you agree to our Terms of Service and Privacy Policy.
           </p>
-          <p className="text-blue-500 text-xs mt-3">© {new Date().getFullYear()} Florida Homeowners Insurance Quotes. All rights reserved.</p>
+          <p className="text-blue-500 text-xs mt-3">© {new Date().getFullYear()} Florida Homeowners Insurance Quotes. All rights reserved. &nbsp;|&nbsp; <a href="mailto:info@floridahomeownersinsurancequotes.com" className="hover:text-blue-300 transition-colors">info@floridahomeownersinsurancequotes.com</a></p>
         </div>
       </div>
     </footer>
