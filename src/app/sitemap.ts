@@ -13,6 +13,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'medicare-advantage-florida-2026',
     'florida-homeowners-insurance-rates-2026',
     'seguro-de-casa-florida',
+    'about',
+    'florida-homeowners-insurance-statistics',
+    'pinellas-county-homeowners-insurance',
+    'hillsborough-county-homeowners-insurance',
+    'lee-county-homeowners-insurance',
+    'sarasota-county-homeowners-insurance',
+    'collier-county-homeowners-insurance',
+    'volusia-county-homeowners-insurance',
+    'jacksonville-homeowners-insurance',
+    'osceola-county-homeowners-insurance',
   ]
   return pages.map(p => ({
     url: `${base}/${p}`,
